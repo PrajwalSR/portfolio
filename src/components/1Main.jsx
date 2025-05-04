@@ -25,11 +25,33 @@ const Hero = () => {
             Empowering organizations through effective project delivery, stakeholder alignment, and strategic execution. 
             With expertise in Agile, cross-functional collaboration, and user-first design, I drive results that matter.
           </p>
-          <div className="certifications">
+          {/* <div className="certifications">
             <img src="https://prajwalsr.github.io/portfolio/certificates/pmp.png" alt="PMP" className="cert-badge" />
             <img src="https://prajwalsr.github.io/portfolio/certificates/cspo.png" alt="CSPO" className="cert-badge" />
             <img src="https://prajwalsr.github.io/portfolio/certificates/csm.webp" alt="CSM" className="cert-badge" />
             <img src="https://prajwalsr.github.io/portfolio/certificates/pmb.png" alt="Atlassian" className="cert-badge" />
+          </div> */}
+          <div className="certifications">
+            <img
+              src={`${process.env.PUBLIC_URL}/pmp.png`}
+              alt="PMP"
+              className="cert-badge"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/csop.png`}
+              alt="CSPO"
+              className="cert-badge"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/csm.webp`}
+              alt="CSM"
+              className="cert-badge"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/pmb.png`}
+              alt="Atlassian"
+              className="cert-badge"
+            />
           </div>
         </div>
 
