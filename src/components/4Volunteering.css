@@ -1,0 +1,91 @@
+.volunteering-section {
+    padding: 60px 20px;
+    background-color: #2e2e2e;
+    color: white;
+    min-height: 45vh;
+    overflow-x: hidden;
+  }
+  
+  .volunteering-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 80px;
+    position: relative;
+  }
+  
+  .volunteering-section h2::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: white;
+    display: block;
+    margin: 10px auto 0;
+  }
+  
+  .volunteering-grid {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    max-width: 2100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .volunteering-card {
+    background: #121212;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+    width: 460px; /* 🔧 increased from 260px to 320px */
+    animation: slideUp 0.8s ease forwards;
+    opacity: 0;
+  }
+  
+  .volunteering-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .volunteering-card h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .volunteering-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+    justify-content: center;
+  }
+  
+  .volunteering-tags span {
+    background-color: #d35e0b;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+  }
+  
+  .volunteering-card ul {
+    list-style: disc;
+    padding-left: 18px;
+    margin: 0;
+    text-align: left;
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+  
+  /* Slide Up Animation */
+  @keyframes slideUp {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
