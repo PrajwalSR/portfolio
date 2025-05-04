@@ -17,7 +17,7 @@ const Hero = () => {
 
       <section className="hero-section" id="vision">
         <div className="hero-left animate-slide">
-          <img src="/praj.jpg" alt="Prajwal" className="hero-photo" />
+          <img src="https://prajwalsr.github.io/portfolio/certificates/praj.jpg" alt="Prajwal" className="hero-photo" />
         </div>
         <div className="hero-right animate-slide">
           <h1 className="hero-intro-title">Prajwal<br />Shanthakumari Rangaswamy</h1>
@@ -26,10 +26,10 @@ const Hero = () => {
             With expertise in Agile, cross-functional collaboration, and user-first design, I drive results that matter.
           </p>
           <div className="certifications">
-            <img src="/pmp.png" alt="PMP" className="cert-badge" />
-            <img src="/cspo.png" alt="CSPO" className="cert-badge" />
-            <img src="/csm.webp" alt="CSM" className="cert-badge" />
-            <img src="/pmb.png" alt="Atlassian" className="cert-badge" />
+            <img src="https://prajwalsr.github.io/portfolio/certificates/pmp.png" alt="PMP" className="cert-badge" />
+            <img src="https://prajwalsr.github.io/portfolio/certificates/cspo.png" alt="CSPO" className="cert-badge" />
+            <img src="https://prajwalsr.github.io/portfolio/certificates/csm.webp" alt="CSM" className="cert-badge" />
+            <img src="https://prajwalsr.github.io/portfolio/certificates/pmb.png" alt="Atlassian" className="cert-badge" />
           </div>
         </div>
 
