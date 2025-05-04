@@ -17,7 +17,12 @@ const Hero = () => {
 
       <section className="hero-section" id="vision">
         <div className="hero-left animate-slide">
-          <img src="https://prajwalsr.github.io/portfolio/certificates/praj.jpg" alt="Prajwal" className="hero-photo" />
+          {/* <img src="https://prajwalsr.github.io/portfolio/certificates/praj.jpg" alt="Prajwal" className="hero-photo" /> */}
+          <img
+              src={`${process.env.PUBLIC_URL}/praj.jpg`}
+              alt="Prajwal"
+              className="hero-photo"
+            />
         </div>
         <div className="hero-right animate-slide">
           <h1 className="hero-intro-title">Prajwal<br />Shanthakumari Rangaswamy</h1>
