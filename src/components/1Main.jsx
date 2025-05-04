@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="hero-left animate-slide">
           {/* <img src="https://prajwalsr.github.io/portfolio/certificates/praj.jpg" alt="Prajwal" className="hero-photo" /> */}
           <img
-              src={`${process.env.PUBLIC_URL}/praj.jpg`}
+              src={`${process.env.PUBLIC_URL}/praj.JPG`}
               alt="Prajwal"
               className="hero-photo"
             />
