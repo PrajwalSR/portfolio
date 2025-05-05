@@ -21,6 +21,13 @@
   margin-bottom: 40px;
 }
 
+.edu-underline-coursename {
+  width: 380px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
 .edu-item {
   display: flex;
   align-items: flex-start;
@@ -38,7 +45,7 @@
 }
 
 .edu-details h3 {
-  margin-top: 0; /* remove default h3 top margin */
+  margin-top: 0px; /* remove default h3 top margin */
 }
 
 .edu-heading {
@@ -47,24 +54,26 @@
   margin-bottom: 8px;
 }
 
+.edu-heading2 {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: -10px;
+  color: #f76903;
+}
+
 .edu-text {
   font-size: 16px;
   line-height: 1.6;
-  color: #ccc;
-}
-
-.edu-entry {
-  display: flex;
-  align-items: flex-start; /* ensures text and number align at the top */
-  gap: 20px;
-  margin-bottom: 30px;
+  color: #ffffff;
+  padding-left: 0rem;
+  width: 80%;
 }
 
 .edu-item {
   display: flex;
   align-items: flex-start;
   gap: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   opacity: 0;
   transform: translateY(40px);
   transition: all 0.5s ease-out;

@@ -1,25 +1,30 @@
-// components/Contact.jsx
 import React from 'react';
 import './6Contact.css';
-import { Element } from 'react-scroll';
+import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaLinkedin, FaInstagram, FaFacebookF } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <Element name="contact" className="contact-section">
-      <h2>Contact Me</h2>
-      <form className="contact-form">
-        <label htmlFor="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Your name" required />
-
-        <label htmlFor="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Your email" required />
-
-        <label htmlFor="message">Message</label>
-        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
-
-        <button type="submit">Send</button>
-      </form>
-    </Element>
+    <section className="contact-section">
+      <div className="contact-details">
+        <div className="contact-item">
+          <FaMapMarkerAlt className="icon" />
+          <span>Los Angeles, CA</span>
+        </div>
+        <div className="contact-item">
+          <FaPhone className="icon" />
+          <span>+1 310-290-0482</span>
+        </div>
+        <div className="contact-item">
+          <FaEnvelope className="icon" />
+          <a href="mailto:pshantha@usc.edu">pshantha@usc.edu</a>
+        </div>
+        <div className="social-icons">
+          <a href="https://www.linkedin.com/in/prajwalsr1997/" target="_blank" rel="noreferrer">
+            <FaLinkedin />
+          </a>
+        </div>
+      </div>
+    </section>
   );
 };
 

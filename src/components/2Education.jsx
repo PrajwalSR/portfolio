@@ -6,27 +6,31 @@ import { motion } from 'framer-motion';
 const educationData = [
   {
     number: '01.',
-    title: 'PMP Certification',
+    title: 'Projet Management Professional (PMP) Certification',
+    title2: 'Project Management Institute (PMI)',
     description:
-      'Developed advanced project planning, execution, and stakeholder management skills aligned with PMI standards.',
+      'Developed advanced skills in defining project scope, managing risks, and aligning business objectives - strengthening delivery success across cross-functional teams.',
   },
   {
     number: '02.',
     title: 'M.S. in Engineering Management (MEM)',
+    title2: 'University of Southern California (USC)',
     description:
-      'Gained cross-functional leadership expertise, data-driven decision-making, and strategic thinking across engineering teams.',
+      'Blended technical depth with business strategy through coursework in New Product Development, Engineering Project Management, and Technology Strategy - preparing for leadership in tech-driven organizations.',
   },
   {
     number: '03.',
-    title: 'B.S. in Electronics & Communication Engineering',
+    title: 'Product Owner (CSPO) & Scrum Master (CSM)',
+    title2: 'Scrum Alliance (SA)',
     description:
-      'Built a strong technical foundation in circuits, embedded systems, and communication networks with hands-on project experience.',
+      'Specialized in Agile delivery by mastering backlog refinement, sprint execution, and servant leadership—enabling continuous feature delivery and customer-centric development.',
   },
   {
     number: '04.',
-    title: 'Scrum Product Owner & Scrum Master',
+    title: 'B.S. in Electronics & Communication Engineering',
+    title2: 'Dayananda Sagar College of Engineering (DSCE)',
     description:
-      'Mastered Agile ceremonies, product backlog grooming, sprint planning, and cross-functional collaboration to drive product value.',
+      'Engineered digital systems, communication protocols, and microcontroller applications—building a strong technical foundation for system - level innovation.',
   },
 ];
 
@@ -54,6 +58,8 @@ const Education = () => {
           <div className="edu-number">{edu.number}</div>
           <div className="edu-details">
             <h3 className="edu-heading">{edu.title}</h3>
+            <div className="edu-underline-coursename" />
+            <h3 className="edu-heading2">{edu.title2}</h3>
             <p className="edu-text">{edu.description}</p>
           </div>
         </motion.div>

@@ -2,59 +2,62 @@ import React from 'react';
 import './1Main.css';
 import { FaEnvelope, FaLinkedin } from 'react-icons/fa';
 
-const Hero = () => {
+const Main = () => {
   return (
     <>
       <nav className="navbar">
         <div className="logo">Prajwal</div>
         <ul className="nav-links">
-          <li><a href="#vision">Vision</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#experience">Work Experience</a></li>
           <li><a href="#volunteering">Volunteering</a></li>
+          <li><a href="#projects">Projects</a></li>
         </ul>
       </nav>
 
-      <section className="hero-section" id="vision">
-        <div className="hero-left animate-slide">
-          {/* <img src="https://prajwalsr.github.io/portfolio/certificates/praj.jpg" alt="Prajwal" className="hero-photo" /> */}
+      <section className="main-section" id="about">
+        <div className="main-left animate-slide">
           <img
               src={`${process.env.PUBLIC_URL}/praj.JPG`}
               alt="Prajwal"
-              className="hero-photo"
+              className="main-photo"
             />
         </div>
-        <div className="hero-right animate-slide">
-          <h1 className="hero-intro-title">Prajwal<br />Shanthakumari Rangaswamy</h1>
-          <p className="hero-intro-text">
-            Empowering organizations through effective project delivery, stakeholder alignment, and strategic execution. 
-            With expertise in Agile, cross-functional collaboration, and user-first design, I drive results that matter.
+        <div className="main-right animate-slide">
+          <h1 className="main-introline1-title">Prajwal (RAJ)</h1>
+          <h1 className="main-introline2-title">Shanthakumari Rangaswamy</h1>
+          <p className="main-intro-text">
+          A certified Product and Project Manager with a strong foundation in engineering and business strategy. 
+          Proficient in both Agile and Waterfall methodologies, with expertise in stakeholder alignment and end-to-end product execution 
+          - delivering user-centric solutions that drive measurable business impact.
           </p>
-          {/* <div className="certifications">
-            <img src="https://prajwalsr.github.io/portfolio/certificates/pmp.png" alt="PMP" className="cert-badge" />
-            <img src="https://prajwalsr.github.io/portfolio/certificates/cspo.png" alt="CSPO" className="cert-badge" />
-            <img src="https://prajwalsr.github.io/portfolio/certificates/csm.webp" alt="CSM" className="cert-badge" />
-            <img src="https://prajwalsr.github.io/portfolio/certificates/pmb.png" alt="Atlassian" className="cert-badge" />
-          </div> */}
+          <h2 className="main-vision-title">My Passion</h2>
+          <p className="main-vision-text">
+          Building purposeful digital products that simplify complexity, empower users, and accelerate business growth. 
+          Leading initiatives that not only address today’s challenges but also create a foundation for scalable, sustainable impact.
+
+          </p>
+          
           <div className="certifications">
             <img
-              src={`${process.env.PUBLIC_URL}/pmp.png`}
+              src={`${process.env.PUBLIC_URL}/PMP.png`}
               alt="PMP"
               className="cert-badge"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/csop.png`}
+              src={`${process.env.PUBLIC_URL}/CSPO.png`}
               alt="CSPO"
               className="cert-badge"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/csm.webp`}
+              src={`${process.env.PUBLIC_URL}/CSM.png`}
               alt="CSM"
               className="cert-badge"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/pmb.png`}
-              alt="Atlassian"
+              src={`${process.env.PUBLIC_URL}/PMB.png`}
+              alt="PMB"
               className="cert-badge"
             />
           </div>
@@ -73,4 +76,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Main;

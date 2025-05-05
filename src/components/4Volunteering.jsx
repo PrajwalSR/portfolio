@@ -1,47 +1,63 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './4Volunteering.css';
 
 const volunteering = [
   {
-    title: 'Technical Project Manager | EuclidAI',
-    tags: ['Agile', 'Predictive Analytics', 'Team Leadership'],
-    points: [
-      'Led cross-functional AI teams building scalable products. Coordinated sprint planning and stakeholder updates.',
-      'Managed predictive analytics initiatives across departments. Coordinated sprint planning and stakeholder updates.',
-      'Coordinated sprint planning and stakeholder updates. Coordinated sprint planning and stakeholder updates.',
-      'Built client portfolios and integrated external APIs. Coordinated sprint planning and stakeholder updates.',
-    ],
+    title: 'Center Mentor | USC K-12 STEM Center',
+    subtitle: 'Summer Research Coordination – High School Outreach',
+    points: ['Supported 100+ high school students in a summer research program by coordinating logistics, assisting PhD mentors, and facilitating on-campus engagement alongside 7 fellow mentors.',
+    ]
   },
   {
-    title: 'Consultant | Accenture',
-    tags: ['SAP MM', 'Process Optimization', 'Procurement'],
-    points: [
-      'Led cross-functional AI teams building scalable products. Coordinated sprint planning and stakeholder updates.',
-      'Managed predictive analytics initiatives across departments. Coordinated sprint planning and stakeholder updates.',
-      'Coordinated sprint planning and stakeholder updates. Coordinated sprint planning and stakeholder updates.',
-      'Built client portfolios and integrated external APIs. Coordinated sprint planning and stakeholder updates.',
-    ],
+    title: 'Student Volunteer | USC Volunteer Center',
+    subtitle: 'Community Engagement & Outreach',
+    points: ['Contributed to civic programs including food bank support, beach cleanups, and educational events—helping deliver operational success and social impact.',
+    ]
+    
   },
 ];
 
 const Volunteering = () => {
+  const cardsRef = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach((entry, index) => {
+          if (entry.isIntersecting) {
+            setTimeout(() => {
+              entry.target.classList.add('visible');
+            }, index * 150); // stagger delay
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    cardsRef.current.forEach(card => {
+      if (card) observer.observe(card);
+    });
+
+    return () => {
+      cardsRef.current.forEach(card => {
+        if (card) observer.unobserve(card);
+      });
+    };
+  }, []);
+
   return (
     <section className="volunteering-section" id="volunteering">
       <h2>Volunteering</h2>
       <div className="volunteering-grid">
-        {volunteering.map((exp, index) => (
-          <div className="volunteering-card" key={index}>
-            <h3>{exp.title}</h3>
-            <div className="volunteering-tags">
-              {exp.tags.map((tag, idx) => (
-                <span key={idx}>{tag}</span>
-              ))}
-            </div>
-            <ul>
-              {exp.points.map((point, i) => (
-                <li key={i}>{point}</li>
-              ))}
-            </ul>
+      {volunteering.map((exp, index) => (
+          <div
+            key={index}
+            className="volunteering-card"
+            ref={el => (cardsRef.current[index] = el)}
+          >
+            <h3 className='title'>{exp.title}</h3>
+            <p><em>{exp.subtitle}</em></p>
+            <p>{exp.points}</p>
           </div>
         ))}
       </div>
