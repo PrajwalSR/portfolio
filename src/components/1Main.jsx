@@ -25,7 +25,7 @@ const Main = () => {
             />
         </div>
         <div className="main-right animate-slide">
-          <h1 className="main-introline1-title">Prajwal (RAJ)</h1>
+          <h1 className="main-introline1-title">Prajwal</h1>
           <h1 className="main-introline2-title">Shanthakumari Rangaswamy</h1>
           <p className="main-intro-text">
           A certified Product and Project Manager with a strong foundation in engineering and business strategy. 
