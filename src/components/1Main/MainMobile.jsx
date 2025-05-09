@@ -35,10 +35,10 @@ const MainMobile = () => {
               flexWrap: 'wrap'
             }}
           >
-            <img src={`${process.env.PUBLIC_URL}/pmp.png`} alt="PMP" height={64} />
-            <img src={`${process.env.PUBLIC_URL}/cspo.png`} alt="CSPO" height={64} />
-            <img src={`${process.env.PUBLIC_URL}/csm.png`} alt="CSM" height={64} />
-            <img src={`${process.env.PUBLIC_URL}/pmb.png`} alt="PMB" height={64} />
+            <img src={`${process.env.PUBLIC_URL}/PMP.png`} alt="PMP" height={64} />
+            <img src={`${process.env.PUBLIC_URL}/CSPO.png`} alt="CSPO" height={64} />
+            <img src={`${process.env.PUBLIC_URL}/CSM.png`} alt="CSM" height={64} />
+            <img src={`${process.env.PUBLIC_URL}/PMB.png`} alt="PMB" height={64} />
           </Box>
         </CardContent>
       </Card>
