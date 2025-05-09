@@ -45,3 +45,20 @@
 .social-icons a:hover {
   transform: scale(1.5);
 }
+
+/* ✅ Mobile-friendly adjustments */
+@media (max-width: 600px) {
+  .contact-details {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .contact-item {
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+  }
+}

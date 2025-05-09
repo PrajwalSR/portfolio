@@ -1,5 +1,5 @@
 import React from 'react';
-import './1Main.css';
+import './MainDesktop.css';
 import { FaEnvelope, FaLinkedin } from 'react-icons/fa';
 
 const Main = () => {

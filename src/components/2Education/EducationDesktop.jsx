@@ -1,6 +1,6 @@
 // 2Education.jsx
 import React from 'react';
-import './2Education.css';
+import './EducationDesktop.css';
 import { motion } from 'framer-motion';
 
 const educationData = [
