@@ -35,18 +35,18 @@ npm start
 ```
 This will open the app in development mode at http://localhost:3000. The page will reload automatically as you make changes.
 
-🚀 How to Deploy to GitHub Pages
+## 🚀 How to Deploy to GitHub Pages
 
 This project uses the gh-pages npm package for deployment.
 
-1. Build the app
+### 1. Build the app
 
 ```bash
 npm run build
 ```
 This creates an optimized production build in the build/ folder.
 
-2. Deploy to gh-pages branch
+### 2. Deploy to gh-pages branch
 
 Make sure your package.json includes the following lines:
 
@@ -65,7 +65,7 @@ npm run deploy
 ```
 This will push the contents of your /build folder to the gh-pages branch and update the live site.
 
-🧰 Available Scripts
+## 🧰 Available Scripts
 
 In the project directory, you can run:
 
