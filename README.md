@@ -51,7 +51,7 @@ This creates an optimized production build in the build/ folder.
 Make sure your package.json includes the following lines:
 
 ```bash
-"homepage": "https://prajwalsr.github.io/portfolio",
+"homepage": "https://<your-github-username>.github.io/<your-repo-name>"
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
