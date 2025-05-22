@@ -40,26 +40,38 @@ const Main = () => {
           </p>
           
           <div className="certifications">
-            <img
-              src={`${process.env.PUBLIC_URL}/PMP.png`}
-              alt="PMP"
-              className="cert-badge"
-            />
-            <img
-              src={`${process.env.PUBLIC_URL}/CSPO.png`}
-              alt="CSPO"
-              className="cert-badge"
-            />
-            <img
-              src={`${process.env.PUBLIC_URL}/CSM.png`}
-              alt="CSM"
-              className="cert-badge"
-            />
-            <img
-              src={`${process.env.PUBLIC_URL}/PMB.png`}
-              alt="PMB"
-              className="cert-badge"
-            />
+            <a href="https://www.credly.com/badges/ac59f6d5-a8b7-4d43-987c-84dc32dfe9a2/public_url" target="_blank" rel="noopener noreferrer">
+              <img
+                src={`${process.env.PUBLIC_URL}/PMP.png`}
+                alt="PMP"
+                className="cert-badge"
+              />
+            </a>
+
+            <a href="https://bcert.me/shatrhcge" target="_blank" rel="noopener noreferrer">
+              <img
+                src={`${process.env.PUBLIC_URL}/CSPO.png`}
+                alt="CSPO"
+                className="cert-badge"
+              />
+            </a>
+
+            <a href="https://bcert.me/sbazwjbwi" target="_blank" rel="noopener noreferrer">
+              <img
+                src={`${process.env.PUBLIC_URL}/CSM.png`}
+                alt="CSM"
+                className="cert-badge"
+              />
+            </a>
+
+            <a href="https://www.credly.com/badges/15791ca4-e76a-4dd1-ad68-cc102b6c9b41/public_url" target="_blank" rel="noopener noreferrer">
+              <img
+                src={`${process.env.PUBLIC_URL}/PMB.png`}
+                alt="PMB"
+                className="cert-badge"
+              />
+            </a>
+            
           </div>
         </div>
 

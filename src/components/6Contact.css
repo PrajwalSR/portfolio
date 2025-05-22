@@ -23,7 +23,7 @@
 }
 
 .icon {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .contact-item a {
@@ -38,7 +38,7 @@
 
 .social-icons a {
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   transition: transform 0.2s ease;
 }
 
@@ -49,16 +49,24 @@
 /* ✅ Mobile-friendly adjustments */
 @media (max-width: 600px) {
   .contact-details {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-
+    font-size: 14px;
   }
 
   .contact-item {
-    flex-direction: column;
-    gap: 6px;
     align-items: center;
     justify-content: center;
+  }
+
+  .icon {
+    font-size: 18px;
+  }
+
+  .social-icons a {
+    color: #fff;
+    font-size: 18px;
+    transition: transform 0.2s ease;
   }
 }
