@@ -8,7 +8,7 @@ Feel free to clone this repo and use it as a starting point to build your own pe
 
 ## 🌐 Live Site
 
-Check out the live site here: [https://prajwalsr.github.io/portfolio](https://prajwalsr.github.io/portfolio)
+Check out the live site here: [Link](https://prajwalsr.github.io/portfolio)
 
 ---
 
@@ -34,6 +34,8 @@ npm install
 npm start
 ```
 This will open the app in development mode at http://localhost:3000. The page will reload automatically as you make changes.
+
+---
 
 ## 🚀 How to Deploy to GitHub Pages
 
@@ -65,6 +67,8 @@ npm run deploy
 ```
 This will push the contents of your /build folder to the gh-pages branch and update the live site.
 
+---
+
 ## 🧰 Available Scripts
 
 In the project directory, you can run:
@@ -90,7 +94,9 @@ npm run deploy
 
 Builds and deploys the app to GitHub Pages using the gh-pages branch.
 
-📫 Contact
+---
+
+## 📫 Contact
 
 If you’d like to connect:
 * 📧 prajwalsr575@gmail.com
