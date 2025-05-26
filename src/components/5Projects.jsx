@@ -6,31 +6,31 @@ const projects = [
   {
     title: 'Urban Park Ease',
     subtitle: 'Strategic Management of Technology – USC Viterbi',
-    tags: ['Market Research', 'Product Strategy', 'IoT'],
+    tags: ['Market Research', 'Product Strategy', 'IoT Devices', 'Smart Cities', 'Scalable Adoption'],
     points: [
-      'Conducted market research and stakeholder analysis to identify urban parking inefficiencies and validate opportunity.',
-      'Developed a phased roadmap integrating IoT sensors, AI-driven forecasting, and user-centric design inspired by Google Maps.',
-      'Built a commercialization plan with financial forecasts, targeting $21M revenue and measurable reductions in traffic congestion.',
+      'Conducted stakeholder interviews and market analysis to identify urban parking inefficiencies and user behavior gaps in congested cities.',
+	    'Designed a roadmap integrating IoT sensors, predictive analytics, and UX flows modeled after Google Maps.',
+	    'Created a financial forecast and commercialization plan targeting $21M revenue and 15% improvement in city traffic flow KPIs.',
     ],
   },
   {
     title: 'Meta New Product Introduction',
     subtitle: 'New Product Development – USC Marshall',
-    tags: ['User Research', 'Mixed Reality', 'GTM Strategy'],
+    tags: ['Product Discovery', 'P&L Forecasting', 'User Research', 'Mixed Reality', 'GTM Strategy'],
     points: [
-      'Led product discovery and user research to conceptualize MetaSport, a fitness-focused MR wearable for Meta’s ecosystem.',
-      'Defined product features, pricing models, and conducted market segmentation across gamers, educators, and fitness users.',
-      'Created a launch strategy with pre-release campaigns, channel partnerships, and a 3-year P&L forecast.',
+      'Led discovery and qualitative research to conceptualize MetaSport, an MR wearable for fitness, tailored to Meta’s platform ecosystem.',
+      'Conducted user segmentation and defined pricing models across gym-goers, educators, and healthcare segments.',
+      'Built a GTM plan with pre-launch campaigns, B2B channel strategies, and a 3-year revenue forecast to support leadership buy-in.',
     ],
   },
   {
     title: 'USC Housing App',
     subtitle: 'Engineering Project Management – USC Marshall',
-    tags: ['UX Design', 'API Integration', 'Risk Management'],
+    tags: ['UX Design', 'Risk Management', 'System Architecture', 'API Integration', 'Project Management'],
     points: [
-      'Planned a unified student housing app including roommate matching, housing reviews, and a secure marketplace.',
-      'Outlined system architecture with Zillow API integration, secure authentication, and in-app messaging.',
-      'Defined risk management, stakeholder training, and post-launch support plans to ensure scalable adoption.',
+      'Spearheaded a full-stack housing solution for USC students: roommate matching, reviews, and peer-to-peer listings.',
+      'Designed system architecture with Zillow API, secure auth, and in-app chat; implemented Agile-based release planning.',
+      'Created a risk mitigation framework including stakeholder training and UAT testing for scalable rollout post MVP.',
     ],
   },
 ];
