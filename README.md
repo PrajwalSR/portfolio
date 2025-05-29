@@ -12,6 +12,20 @@ Check out the live site here: [Link](https://prajwalsr.github.io/portfolio)
 
 ---
 
+## 🙌 Want to Use This Template?
+
+You're welcome to **customize it freely** for personal or educational use!
+
+Please note:
+- This repository is **read-only** and is intended as a template only.
+- **Pull requests and issues are disabled**.
+
+🛑 **Important Note**  
+- You are not permitted to reuse any personal content from this website — including text, project descriptions, images, and resume details.
+- Only the source code (layout, styling, and structure) is offered under the template license.
+
+---
+
 ## 💻 How to Clone and Run Locally
 
 To clone this repository and run the website on your local machine:

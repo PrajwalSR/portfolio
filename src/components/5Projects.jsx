@@ -89,7 +89,7 @@ const Projects = () => {
       </div>
 
       <div className="template-link">
-        Wanna use this portfolio template? 👉 {" "}
+        Want to use this portfolio template? 👉 {" "}
         <a
           href="https://github.com/PrajwalSR/portfolio"
           target="_blank"
