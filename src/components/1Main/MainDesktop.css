@@ -76,13 +76,13 @@
 
 .certifications {
   display: flex;
-  gap: 10px;
+  gap: 12px;
   flex-wrap: wrap;
   animation: slideUp 1.4s ease forwards;
 }
 
 .cert-badge {
-  width: 135px;
+  width: 120px;
   height: auto;
   border-radius: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
