@@ -3,8 +3,9 @@
   padding: 60px 20px;
   background-color: #121212dd;
   color: white;
-  min-height: 80%;
+  /* min-height: 80%; */
   overflow-x: hidden;
+  min-height: 50vh;
 }
 
 @keyframes fadeSlideUp {

@@ -87,7 +87,19 @@ const Projects = () => {
           </div>
         ))}
       </div>
-    </section>
+
+      <div className="template-link">
+        Wanna use this portfolio template? 👉 {" "}
+        <a
+          href="https://github.com/PrajwalSR/portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Use my public repository to clone this project
+        </a>
+      </div>
+
+    </section>  
   );
 };
 

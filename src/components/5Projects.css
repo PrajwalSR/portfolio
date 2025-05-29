@@ -3,8 +3,9 @@
   padding: 60px 20px;
   background-color: #121212;
   color: white;
-  min-height: 80%;
+  /* min-height: 80%; */
   overflow-x: hidden;
+  min-height: 0vh;
 }
 
 @keyframes fadeSlideUp {
@@ -98,4 +99,35 @@
   text-align: left;
   font-size: 0.85rem;
   line-height: 1.6;
+}
+
+.template-link {
+  margin-top: 60px;
+  text-align: right;
+  font-size: 1rem;
+  color: #9ca3af; /* light gray */
+  padding-right: 60px;
+}
+
+.template-link a {
+  color: #f76903cc;
+  /* text-decoration: underline; */
+  transition: color 0.5s ease;
+}
+
+.template-link a:hover {
+  color: #93c5fd; /* Tailwind's hover-blue-300 */
+}
+
+.template-link {
+  animation: fadeSlideUp 2.5s ease-out;
+}
+
+@media (max-width: 600px) {
+  .template-link {
+    font-size: 0.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
 }
