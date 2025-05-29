@@ -66,6 +66,9 @@ const Main = () => {
             <a href="https://www.credly.com/badges/ac59f6d5-a8b7-4d43-987c-84dc32dfe9a2/public_url" target="_blank" rel="noopener noreferrer">
               <img src={`${process.env.PUBLIC_URL}/PMP.png`} alt="PMP" className="cert-badge" />
             </a>
+            <a href="https://www.credly.com/badges/36667242-769b-42e9-8712-e6aafa4fdd4d" target="_blank" rel="noopener noreferrer">
+              <img src={`${process.env.PUBLIC_URL}/PL.png`} alt="PL" className="cert-badge" />
+            </a>
             <a href="https://bcert.me/shatrhcge" target="_blank" rel="noopener noreferrer">
               <img src={`${process.env.PUBLIC_URL}/CSPO.png`} alt="CSPO" className="cert-badge" />
             </a>
