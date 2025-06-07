@@ -1,0 +1,103 @@
+
+/* Nav styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #111;
+  z-index: 999;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+/* Nav styles logo*/
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+/* Nav styles link names*/
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+/* Nav styles links*/
+.nav-links li a {
+  text-decoration: none;
+  color: #ccc;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+/* Nav styles hover*/
+.nav-links li a:hover {
+  color: #fff;
+}
+/* Nav styles active links*/
+.nav-links li a.active {
+  color: #fff;
+  border-bottom: 3px solid #ff6b00; /* Customize this color */
+  padding-bottom: 4px;
+  font-weight: bold;
+}
+
+/* Badge styles*/
+.cert-badge {
+  width: 130px;
+  height: auto;
+  margin: 0 15px;  /* gap between badges*/
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Badge styles on hover*/
+.cert-badge:hover {
+  transform: translateY(-10px) scale(1.15);
+}
+
+/* Contact styles*/
+.contact-icons {
+  display: flex;
+  justify-content: flex-end;   
+  align-items:end;
+  gap: 15px;
+  height: 100%;   /* ensure full height of Grid item */
+}
+/* Contact styles on hover*/
+.contact-icons a {
+  color: #ccc;
+  font-size: 35px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+/* Contact styles on hover*/
+.contact-icons a:hover {
+  transform: scale(1.4);
+  color: #fff;
+}
+
+
+
+/* Animation of grids*/
+@keyframes slideUp {
+  0% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* Animation of grids*/
+.animate-slide {
+  opacity: 0;
+  animation: slideUp 2s ease forwards;
+}

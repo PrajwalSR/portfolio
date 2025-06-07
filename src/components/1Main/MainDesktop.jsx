@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './MainDesktop.css';
 import { FaEnvelope, FaLinkedin } from 'react-icons/fa';
 
+// This is legacy file 
 const Main = () => {
   const [activeSection, setActiveSection] = useState('');
 
