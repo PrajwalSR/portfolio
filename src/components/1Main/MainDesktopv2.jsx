@@ -69,7 +69,7 @@ const MainDesktopV2 = () => {
             <Grid container spacing={3} id="about">
 
                 {/* First Column (Left Column → Image) */}
-                <Grid item size={4.8}>
+                <Grid item size={4.6}>
 
                     {/* A Box Component to Add the Image */}
                     <Box
