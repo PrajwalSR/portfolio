@@ -119,38 +119,41 @@ const MainDesktopV2 = () => {
                             textAlign: 'left',  // Force Text to be Left Alignment 
                             paddingLeft: '24px',    // Optional: Add Padding so Text Doesn't Touch Edges
                         }}
-                        className="animate-slide" // Simple Slide Up animation on First Loading or Reloading
+                        className="animate-slide2" // Simple Slide Up animation on First Loading or Reloading
                         >
                             <Typography 
-                                variant="h3" 
                                 sx={{ 
                                 color: '#fff', 
-                                fontWeight: 500, 
-                                marginTop: '30px'
+                                fontWeight: 600, 
+                                marginTop: '60px',
+                                marginBottom: '-12px',
+                                fontSize: '40px',
+                                fontFamily: 'Poppins, sans-serif'
                                 }}
                             >
                                 Prajwal
                             </Typography>
 
                             <Typography
-                                variant="h4"
                                 sx={{
-                                color: '#fff',
+                                color: '#fee',
                                 fontWeight: 500,
-                                borderBottom: '2px solid #fff',
+                                borderBottom: '2px solid #ff6b00',
                                 display: 'inline-block',
-                                // paddingBottom: '5px',
-                                marginBottom: '16px',
+                                marginBottom: '12px',
+                                fontSize: '32px',
+                                fontFamily: 'Poppins, sans-serif'
                                 }}
                             >
                                 Shanthakumari Rangaswamy
                             </Typography>
 
                             <Typography 
-                            variant="body1" 
                             sx={{ 
-                            color: '#ccc', 
-                            lineHeight: 1.6 
+                            color: '#fee', 
+                            lineHeight: 1.6,
+                            fontSize: '19px',
+                            fontFamily: 'Poppins, sans-serif',
                             }}>
                                 A certified Product and Project Manager with a strong foundation in engineering and business strategy. 
                                 Proficient in both Agile and Waterfall methodologies, with expertise in stakeholder
@@ -168,24 +171,35 @@ const MainDesktopV2 = () => {
                             textAlign: 'left',  // Force Text to be Left Alignment 
                             paddingLeft: '24px',    // Optional: add padding so text doesn't touch edges
                         }}
-                        className="animate-slide" // Simple Slide Up animation on First Loading or Reloading
+                        className="animate-slide2" // Simple Slide Up animation on First Loading or Reloading
                         >
                             <Typography
                                 variant="h4"
                                 sx={{
                                 color: '#fff',
-                                fontWeight: 500,
-                                borderBottom: '2px solid #fff',
+                                fontWeight: 600,
+                                borderBottom: '2px solid #ff6b00',
                                 display: 'inline-block',
-                                marginBottom: '16px',
+                                marginBottom: '12px',
+                                fontSize: '38px',
+                                fontFamily: 'Poppins, sans-serif'
                                 }}
                             >
                                 My Passion
                             </Typography>
 
-                            <Typography variant="body1" sx={{ color: '#ccc', lineHeight: 1.6 }}>
-                            Building purposeful digital products that simplify complexity, empower users, and accelerate business growth. 
-                            Leading initiatives that not only address today’s challenges but also create a foundation for scalable, sustainable impact.
+                            <Typography 
+                                variant="body1" 
+                                sx={{ 
+                                color: '#fee', 
+                                lineHeight: 1.6,
+                                marginBottom: 0,
+                                paddingBottom: 0,
+                                fontSize: '19px',
+                                fontFamily: 'Poppins, sans-serif' 
+                                }}>
+                                    Building purposeful digital products that simplify complexity, empower users, and accelerate business growth. 
+                                    Leading initiatives that not only address today’s challenges but also create a foundation for scalable, sustainable impact.
                             </Typography>
                         </Grid>
 
@@ -194,16 +208,16 @@ const MainDesktopV2 = () => {
                         item
                         sx={{
                             // Added Pading (left and Right) by 2.5 and reduce total width of the row to 95% to give a subtle animation in the centre
-                            paddingLeft:2.5, 
-                            paddingRight:2.5, 
-                            flex: '0 0 95%',  
+                            paddingLeft:5, 
+                            paddingRight:5, 
+                            flex: '0 0 100%',  
                             backgroundColor: '#000',
                             display: 'flex', 
                             alignContent: 'center',
                             justifyContent: 'center',
                             overflow: 'hidden',
                         }}
-                        className="animate-slide" // Simple Slide Up animation on First Loading or Reloading
+                        className="animate-slide2" // Simple Slide Up animation on First Loading or Reloading
                         >
                             <Marquee
                                 gradient={true}   // Gradient Fade
@@ -244,7 +258,7 @@ const MainDesktopV2 = () => {
                             flex: '0 0 100%',  
                             backgroundColor: '#000',
                         }}
-                        className="animate-slide" // Simple Slide Up animation on First Loading or Reloading
+                        className="animate-slide2" // Simple Slide Up animation on First Loading or Reloading
                         >
                             <div className="contact-icons">
                                 <a href="mailto:pshantha@usc.edu" target="_blank" rel="noopener noreferrer">

@@ -101,3 +101,10 @@
   opacity: 0;
   animation: slideUp 2s ease forwards;
 }
+
+/* Animation of Grids*/
+.animate-slide2 {
+  opacity: 0;
+  animation: slideUp 3s ease forwards;
+  animation-delay: 0.5s;
+}
