@@ -1,6 +1,6 @@
-//5Projects.jsx
+//Projects.jsx
 import React, { useEffect, useRef } from 'react';
-import './5Projects.css';
+import './Projects.css';
 
 const projects = [
   {

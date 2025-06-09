@@ -1,12 +1,12 @@
 // App.js
 import React from 'react';
 import './App.css';
-import Experience from './components/3Experience';
-import Education from './components/2Education/Education';
-import Contact from './components/6Contact';
-import Volunteering from './components/4Volunteering';
-import Projects from './components/5Projects';
 import Main from './components/1Main/Main';
+import Education from './components/2Education/Education';
+import Experience from './components/3Experience/Experience';
+import Volunteering from './components/4Volunteering/Volunteering';
+import Projects from './components/5Projects/Projects';
+import Contact from './components/6Contact/Contact';
 
 
 function App() {

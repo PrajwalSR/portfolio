@@ -1,7 +1,7 @@
 // components/Main.jsx
 import React from 'react';
 import { useMediaQuery, useTheme } from '@mui/material';
-import MainDesktop from './MainDesktopv2';
+import MainDesktop from './MainDesktop';
 import MainMobile from './MainMobile';
 
 const Main = () => {

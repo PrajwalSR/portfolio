@@ -1,4 +1,4 @@
-// 2Education.jsx
+// Education.jsx
 import React from 'react';
 import './EducationDesktopv2.css';
 import { motion } from 'framer-motion';

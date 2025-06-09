@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import './4Volunteering.css';
+import './Volunteering.css';
 
 const volunteering = [
   {

@@ -1,4 +1,4 @@
-// 2Education.jsx
+// Education.jsx
 import React from 'react';
 import './EducationDesktop.css';
 import { motion } from 'framer-motion';

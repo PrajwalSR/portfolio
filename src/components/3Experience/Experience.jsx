@@ -1,6 +1,6 @@
-// 3Experience.jsx
+// Experience.jsx
 import React, { useEffect, useRef } from 'react';
-import './3Experience.css';
+import './Experience.css';
 
 const experiences = [
   {
