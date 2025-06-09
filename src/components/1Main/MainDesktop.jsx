@@ -50,7 +50,7 @@ const MainDesktopV2 = () => {
         <div className="logo">Prajwal</div>
         <ul className="nav-links">
           <li><a href="#about" className={activeSection === 'about' ? 'active' : ''}>About</a></li>
-          {/* <li><a href="#education" className={activeSection === 'education' ? 'active' : ''}>Education</a></li> */}
+          <li><a href="#education" className={activeSection === 'education' ? 'active' : ''}>Education</a></li>
           <li><a href="#experience" className={activeSection === 'experience' ? 'active' : ''}>Experience</a></li>
           <li><a href="#volunteering" className={activeSection === 'volunteering' ? 'active' : ''}>Volunteering</a></li>
           <li><a href="#projects" className={activeSection === 'projects' ? 'active' : ''}>Projects</a></li>
